@@ -23,6 +23,11 @@ Declare a variable inverse,using numpy module's linalg and inv functions find th
 ### Step 9:
 Print the values of inverse
 ## PROGRAM:
+```
+'''
+Developed by: Sithi hajara I 
+RegisterNumber:21500125
+'''
 import numpy as np
 l1,l2 = [],[]
 r,c=int(input()),int(input())
@@ -36,6 +41,7 @@ print(l2)
 value1=np.array(l2)
 inverse = np.linalg.inv(value1)
 print(inverse)
+```
 ## OUTPUT:
 ![s2](https://user-images.githubusercontent.com/94219582/153750293-c2450edd-191b-4985-8765-50cf464dd7c3.PNG)
 
